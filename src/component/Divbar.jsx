@@ -24,8 +24,8 @@ function Divbar() {
 
 
   return (
-    <div className="lg:flex md:block max-w-7xl my-24 lg:ml-36 gap-7 md:mr-4 ">
-      <div className="m-6 ">
+    <div className="lg:flex md:block max-w-7xl my-24 lg:ml-36 gap-7 md:mr-4  ">
+      <div className="m-6 sx:w-11/12 sx:mx-auto">
         <div className=" max-w-xl">
           <div className="">
             <h1 className="text-6xl font-bold font-poppins leading-tight">
@@ -56,7 +56,7 @@ function Divbar() {
 })}</div>}
        
       </div>
-      <div className="">
+      <div className=" sx:w-11/12 sx:mx-auto">
         <img className="md:w-11/12" src="./image/left.png" alt="" />
       </div>
     </div>

@@ -4,26 +4,26 @@ function Navbar() {
   return (
     <>
       <div className="font-poppins">
-        <div class=" md:flex sm:block justify-between max-w-6xl mx-auto px-4 ">
+        <div class=" md:flex sm:block sx:flex justify-between max-w-6xl mx-auto px-4 ">
           <div className="flex">
             <ul className="flex  text-black  font-bold  text-lg font-poppin " >
               <li className="py-4 -ml-2 ">
                 <img className="sm:h-11 " src="./image/image1.png" alt="" />
               </li>
-              <li className="py-6 px-6 flex ">
+              <li className="py-6 sx:hidden px-6 sm:flex ">
                 Solutions{" "}
                 <span className="m-1 text-blue-500  ">
                   <MdKeyboardArrowDown />
                 </span>{" "}
               </li>
-              <li className="py-6  flex">
+              <li className="py-6 sx:hidden   sm:flex">
                 Features{" "}
                 <span className="m-1 text-blue-500">
                   <MdKeyboardArrowDown />
                 </span>{" "}
               </li>
-              <li className="py-6 px-3 ">Blogs </li>
-              <li className="py-6 px-5 flex ">
+              <li className="py-6 sx:hidden sm:block px-3 ">Blogs </li>
+              <li className="py-6 px-5 sx:hidden  sm:flex ">
                 About{" "}
                 <span className="m-1 text-blue-500">
                   <MdKeyboardArrowDown />

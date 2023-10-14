@@ -16,7 +16,10 @@ module.exports = {
         customblue:'#DDF3FF'
       },
       screens: {
-        xs: '480px', 
+        sx: '400px', 
+      },
+      boxShadow: {
+        custom: '0px 0px 3px black',
       },
     },
   },

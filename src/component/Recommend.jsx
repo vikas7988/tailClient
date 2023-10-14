@@ -2,7 +2,7 @@ import { AiTwotoneStar } from "react-icons/ai";
 function Recommend() {
   return (
     <div>
-      <div className="text-lg border">
+      <div className="text-lg shadow-custom rounded-xl">
         <img src="./image/second.png" alt="" />
         <div className="p-4 ">
           <div className="font-bold flex justify-between">

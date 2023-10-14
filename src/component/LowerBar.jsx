@@ -1,8 +1,8 @@
 function LowerBar() {
   return (
-    <div className="mt-36">
-      <div className="md:flex max-w-6xl m-auto ">
-        <div className="md:w-2/3 sm:block md:-mr-8">
+    <div className="my-36 sx:w-11/12 sx:mx-auto">
+      <div className="lg:flex lg:max-w-6xl sx:11/12 m-auto ">
+        <div className="lg:w-2/3 sx:11/12 sx:mx-auto lg:-mr-8">
           <div>
             <h1 className="text-6xl font-bold font-poppins leading-tight ">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-purple-600">ALL-in-One</span> platform that Makes Easier
@@ -44,7 +44,7 @@ function LowerBar() {
             </div>
           </div>
         </div>
-        <div className="sm:mb-72">
+        <div className=" max-w-6xl lg:m-0 md:mx-32 md:my-10  ">
           <div className="flex  ">
             <div className="mt-10  ">
               <div className=" text-xs">
@@ -58,7 +58,7 @@ function LowerBar() {
                   You won't be disappointed with their services.
                 </p>
               </div>
-              <div className="text-xs text-left mt-8 relative">
+              <div className="text-xs text-left mt-8 ">
                 <h1 className="bg-customblue w-64 absolute text-left  ml-4 p-1  rounded-lg ">
                   I got a perfect analysis report from them too
                 </h1>
@@ -66,11 +66,11 @@ function LowerBar() {
               </div>
             </div>
             <div>
-              <img className="" src="./image/Student.png" alt="" />
+              <img className="   " src="./image/Student.png" alt="" />
             </div>
           </div>
-          <div>
-            <img  className="absolute    sm:-mt-28 md:mt-16 lg:-mt-16 -ml-12" src="./image/Teacher.png"  alt=""/>
+          <div className="flex">
+            <img  className="  sm:-mt-10  md:-mt-2  xl:-mt-24  lg:-mt-16" src="./image/Teacher.png"  alt=""/>
           </div>
         </div>
       </div>

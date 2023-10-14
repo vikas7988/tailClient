@@ -38,10 +38,10 @@ function Second () {
 
 
   return <> 
-  {loading?  <DataNotFound data={"Loading data..."}/>: state.length===0? <DataNotFound data={'Data Not Found'}/>   :<div className='md:flex mt-28 gap-5 max-w-6xl  sm:block  m-auto'>
-      <div className='md:w-4/6 '>
+  {loading?  <DataNotFound data={"Loading data..."}/>: state.length===0? <DataNotFound data={'Data Not Found'}/>   :<div className='md:flex mt-28 gap-7 lg:max-w-6xl md:w-11/12  sx:block  mx-auto'>
+      <div className='lg:w-3/6 md:w-3/6 '>
         <div>
-          <div>
+          <div className='sx:w-11/12 sx:mx-auto'>
             <h1 className=' text-4xl font-bold'>{state[0].name}</h1>
             <p className=' text-lg my-6 w-11/12 whitespace-pre-line'>
               I am here to provide my <span>{state[0].intro}</span>
@@ -51,7 +51,7 @@ function Second () {
             
               <span className='text-blue-400 font-bold mx-2'>{state[0].rating} </span><span>({state[0].reviewCount})</span>
             </div>
-            <div className='border p-5'>
+            <div className='shadow-custom rounded-xl  p-5'>
               <div className='flex justify-between'>
                 <p >{state[0].taskComplexity}</p>
                 <h1 className='font-bold'>{state[0].price}</h1>
@@ -71,7 +71,7 @@ function Second () {
             </div>
           </div>
         </div>
-        <div className='border p-5 my-8'>
+        <div className='shadow-custom rounded-xl p-5 my-8 sx:w-11/12 sx:mx-auto'>
           <h1 className='text-4xl font-bold'>What people say?</h1>
           <p className='text-lg my-6 w-11/12 '>
             I cannot express enough gratitude for the support Micheal has provided in managing my personal finances. Their attention to detail and deep understanding of financial markets has ensured that my investments are in safe hands. I highly recommend their services to anyone seeking financial guidance.
@@ -79,11 +79,11 @@ function Second () {
         </div>
       </div>
 
-      <div className='text-lg'>
-        <img src={state[0].image} alt="Photo not Found" />
+      <div className='text-lg sx:w-11/12 sx:mx-auto'>
+        <img className='rounded-3xl' src={state[0].image} alt="Photo not Found" />
 
         <h1 className='text-4xl font-bold my-7'>About <span>{state[0].name}</span></h1>
-        <div className='flex justify-between my-6 mr-20'>
+        <div className='flex justify-between my-6 lg:mr-20'>
           <ul className='space-y-4'>
             <li className='text-gray-500 font-bold'>FROM</li>
             <li>{state[0].about.from}</li>
@@ -133,7 +133,7 @@ function Second () {
     </div> }
     
 
-    <div className='md:flex s max-w-6xl m-auto my-32  gap-4'>
+    <div className='md:flex sx:w-11/12  sx:space-y-7 max-w-6xl m-auto my-32  gap-4'>
 <Recommend/>
 <Recommend/>
 <Recommend/>

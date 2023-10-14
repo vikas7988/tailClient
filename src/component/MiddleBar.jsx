@@ -1,6 +1,6 @@
 function MiddleBar() {
   return (
-    <div  className=" mt-64 ">
+    <div  className=" mt-64 sx:w-11/12 sx:mx-auto ">
     
       <h1 className=" text-center text-6xl font-bold ">Want to <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-purple-600">Join</span> Us?</h1>
       <p className=" text-center text-2xl mt-8 mb-20">
@@ -8,7 +8,7 @@ function MiddleBar() {
         provided
       </p>
 
-      <div className="md:grid  grid-cols-3 gap-12 md:max-w-6xl m-auto">
+      <div className="md:grid  lg:grid-cols-3 md:grid-cols-2 gap-12 space-y-7 md:max-w-6xl m-auto">
         <div className="shadow-2xl bg-white rounded-2xl text-center p-8  relative">
         <div className="absolute bg-blue-700 text-white font-extrabold rounded-xl p-4 round -ml-10 -mt-14">1<sup>st</sup></div>
           <div className=" m-auto">
