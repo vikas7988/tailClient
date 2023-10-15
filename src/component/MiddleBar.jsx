@@ -8,16 +8,18 @@ function MiddleBar() {
         provided
       </p>
 
-      <div className="md:grid  lg:grid-cols-3 md:grid-cols-2 gap-12 space-y-7 md:max-w-6xl m-auto">
-        <div className="shadow-2xl bg-white rounded-2xl text-center p-8  relative">
-        <div className="absolute bg-blue-700 text-white font-extrabold rounded-xl p-4 round -ml-10 -mt-14">1<sup>st</sup></div>
+      <div className="md:grid  lg:grid-cols-3 md:grid-cols-2 gap-12 sx:space-y-7 md:space-y-0 md:max-w-6xl m-auto">
+
+
+        <div className="shadow-2xl bg-white rounded-2xl text-center relative p-8 ">
+        <div className="absolute bg-blue-700 text-white font-bold rounded-lg p-3 round -ml-10 -mt-10">1<sup>st</sup></div>
           <div className=" m-auto">
-            <h1 className="   font-bold ">Commencement of business</h1>
-            <p className="text-sm my-2">
+            <h1 className=" font-bold ">Commencement of business</h1>
+            <p className="text-sm ">
               Invested shareholders must confirm payment and office address
             </p>
           </div>
-          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 ">
+          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 h-48  ">
             <div className=" text-left w-2/6">
               <h1 className="text-blue-500 font-bold my-1">Due date</h1>
               <p>Within 180 days</p>
@@ -37,13 +39,13 @@ function MiddleBar() {
         </div>
         <div className="shadow-2xl bg-white rounded-2xl text-center relative p-8 ">
         <div className="absolute bg-blue-700 text-white font-bold rounded-lg p-3 round -ml-10 -mt-14">2<sup>nd</sup></div>
-          <div className=" m-auto">
+          <div className=" m-auto ">
             <h1 className="font-bold">Auditor Appointment</h1>
             <p className="text-sm ">
             Company informs new auditor and submits ADT.1 form to ROC.
             </p>
           </div>
-          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 ">
+          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 h-48 ">
             <div className=" text-left w-2/6">
               <h1 className="text-blue-500 font-bold my-1">Due date</h1>
               <p>Within 30 days</p>
@@ -66,7 +68,7 @@ function MiddleBar() {
             Directors share personal information for identification & verification 
             </p>
           </div>
-          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 ">
+          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 h-48 ">
             <div className=" text-left w-2/6">
               <h1 className="text-blue-500 font-bold my-1">Due date</h1>
               <p>Every year</p>
@@ -89,7 +91,7 @@ function MiddleBar() {
             Companies report money taken from people to ROC; auditors confirm details.
             </p>
           </div>
-          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 ">
+          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 h-48 ">
             <div className=" text-left w-2/6">
               <h1 className="text-blue-500 font-bold my-1">Due date</h1>
               <p>Within 30 days</p>
@@ -112,7 +114,7 @@ function MiddleBar() {
             It's like an official report card for a company's documents
             </p>
           </div>
-          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 ">
+          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 h-48">
             <div className=" text-left w-2/6">
               <h1 className="text-blue-500 font-bold my-1">Due date</h1>
               <p> On or Before 30th November</p>
@@ -135,7 +137,7 @@ function MiddleBar() {
             Companies must annually report activities and finances to the registrar.
             </p>
           </div>
-          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 ">
+          <div className="flex rounded-xl bg-gray-100 max-w-xs m-auto p-3 gap-1 mt-4 h-48 ">
             <div className=" text-left w-2/6">
               <h1 className="text-blue-500 font-bold my-1">Due date</h1>
               <p>Within 180 days</p>

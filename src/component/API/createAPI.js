@@ -5,5 +5,9 @@ function getData (data){
 
     return Axios.get(`/${data}`)
 }
+function getName (){
 
-export default getData
+    return Axios.get(`/`)
+}
+
+export { getData, getName}

@@ -2,7 +2,7 @@ import {AiTwotoneStar} from 'react-icons/ai'
 import Recommend from './Recommend';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import getData from './API/createAPI';
+import {getData} from './API/createAPI';
 import DataNotFound from './DataNotFound';
 
 
@@ -39,7 +39,7 @@ function Second () {
 
   return <> 
   {loading?  <DataNotFound data={"Loading data..."}/>: state.length===0? <DataNotFound data={'Data Not Found'}/>   :<div className='md:flex mt-28 gap-7 lg:max-w-6xl md:w-11/12  sx:block  mx-auto'>
-      <div className='lg:w-3/6 md:w-3/6 '>
+      <div className='lg:w-4/6 md:w-4/6 '>
         <div>
           <div className='sx:w-11/12 sx:mx-auto'>
             <h1 className=' text-4xl font-bold'>{state[0].name}</h1>
@@ -133,7 +133,7 @@ function Second () {
     </div> }
     
 
-    <div className='md:flex sx:w-11/12  sx:space-y-7 max-w-6xl m-auto my-32  gap-4'>
+    <div className='md:flex sx:w-11/12 sx:space-y-7 md:space-y-0 max-w-6xl m-auto my-32  gap-4'>
 <Recommend/>
 <Recommend/>
 <Recommend/>
